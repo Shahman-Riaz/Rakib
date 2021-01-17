@@ -1,0 +1,110 @@
+a.hover-stylish, a.hover-stylish-yellow {
+    transition: all 2s ease;
+    font-size: 1.2rem;
+}
+a.hover-stylish:hover {
+  letter-spacing: 3px !important;
+  color:hsl(182, 94%, 51%) !important;
+  word-spacing: 3px;
+  
+}
+a.hover-stylish-yellow:hover {
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+img.rak-img:hover {
+    border: .1px solid hsl(182, 94%, 51%);
+}
+.sky-color {
+    color:hsl(182, 94%, 51%) ;
+}
+.dwd-btn a {
+    text-decoration: none;
+    color:hsl(182, 94%, 51%) ;
+   
+
+}
+.dwd-btn {
+    padding: 15px;
+    background-color: black;
+    border: 1px solid hsl(182, 94%, 51%);
+    font-weight: 600;
+    transition: border-radius 10s ease;
+}
+
+.dwd-btn:hover a {
+    color: black;
+    
+}
+ 
+
+.dwd-btn:hover {
+ 
+    background-color:  hsl(182, 94%, 51%);
+   
+}
+header {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 45% 97%, 0 100%);
+}
+
+
+.acivites-header {
+    text-decoration: underline;
+}
+.acivites-header:hover {
+    text-decoration: none;
+    color: black;
+}
+.acitivities-card h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.acitivities-card img {
+    transition: transform 1s ease-in;
+}
+.acitivities-card img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+footer {
+    background:#161616;
+    text-align: center;
+    padding: 3rem 0;
+    color: #FFFFFF;
+}
+footer img.sc {
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    background:#55f4fa;
+    margin-right: 1rem;
+}
+
+.prof-img {
+border: 3px solid #55f4fa;
+border-radius: 10px;
+}
+.fas{
+    font-size: 20px;
+    
+}
+
+.fas button , .fas a{
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.fas a:hover {
+    text-decoration: underline;
+}
+
+
+footer img.sc:hover {
+    border: 2px solid #55f4fa;
+}
+footer .final {
+margin-top: 1.5rem;
+}
