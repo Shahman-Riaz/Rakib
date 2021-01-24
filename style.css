@@ -83,8 +83,15 @@ footer img.sc {
 }
 
 .prof-img {
-border: 3px solid #55f4fa;
-border-radius: 10px;
+    border: 12px solid white;
+border-radius:50%;
+
+}
+.stylish-font {
+    font-family: 'Fjalla One', sans-serif;
+}
+.prof-img:hover {
+    border: 12px solid rgba(192, 202, 200, 0.521);
 }
 .fas{
     font-size: 20px;
